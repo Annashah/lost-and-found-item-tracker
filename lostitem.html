@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lost item</title>
+   <link rel="stylesheet" href="lostitem.css">
+        
+</head>
+<body>
+      <div class="container">
+        <h1>Report a Lost Item</h1>
+
+        <form action="#" method="post" enctype="multipart/form-data">
+            <input type="text" name="item_name" placeholder="Item Name" required>
+            <textarea name="description" placeholder="Describe your item" rows="4" required></textarea>
+            <input type="date" name="date_lost" required>
+            <input type="text" name="location" placeholder="Location Lost" required>
+            <input type="text" name="contact" placeholder="Your Contact Info" required>
+            <input type="file" name="item_image" accept="image/*">
+            <button type="submit">SUBMIT</button>
+        </form>
+
+        <p class="note">Please provide accurate information so that your lost item can be tracked easily.</p>
+    </div>
+</body>
+</html>

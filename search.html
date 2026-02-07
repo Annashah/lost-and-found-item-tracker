@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>filter form</title>
+ <link rel="stylesheet" href="searchitem.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Search Items</h1>
+
+        <form class="search-form">
+            <label for="itemName">Item Name:</label>
+            <input type="text" id="itemName" name="itemName" placeholder="Enter item name">
+
+            <label for="category">Category:</label>
+            <select id="category" name="category">
+                <option value="">All Categories</option>
+                <option value="electronics">Electronics</option>
+                <option value="documents">Documents</option>
+                <option value="keys">Keys</option>
+                <option value="clothes">Clothes</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="date">Date (Lost / Found):</label>
+            <input type="date" id="date" name="date">
+
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" placeholder="Enter location">
+
+            <button type="submit">Search</button>
+        </form>
+    </div>
+</body>
+
+</html>
